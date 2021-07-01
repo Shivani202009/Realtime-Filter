@@ -1,0 +1,29 @@
+#header{
+    font-size: 30px;
+
+}
+
+#capture{
+    font-size:22px ;
+
+}
+
+#capture:hover{
+    background-color: rgb(28, 15, 201);
+}
+
+canvas{
+    margin-top: 120px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes shadow{
+    from{
+        box-shadow:5px 5px 40px red
+    }
+    to{
+        box-shadow: 5px 5px 40px blue;
+    }
+}
